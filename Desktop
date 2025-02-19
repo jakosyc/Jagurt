@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordner</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+            margin: 0;
+        }
+        .folder-container {
+            text-align: center;
+            cursor: pointer;
+        }
+        .folder-container img {
+            width: 100px;
+        }
+        .folder-name {
+            margin-top: 8px;
+            font-size: 18px;
+            border: none;
+            text-align: center;
+            background: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="folder-container" onclick="window.location.href='nextpage.html'">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Folder_Yellow_icon.svg" alt="Ordner">
+        <input type="text" class="folder-name" value="Neuer Ordner">
+    </div>
+</body>
+</html>
