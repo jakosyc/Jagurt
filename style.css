@@ -24,3 +24,26 @@
             display: block; /* Stellt sicher, dass der Text unter dem Bild zentriert ist */
             width: 100%;
         }
+
+       /* Stil für das Datum */
+       #date {
+           color: white;
+           font-weight: bold;
+           font-family: Arial, sans-serif; /* Arial Schriftart */
+           text-shadow: 3px 3px 5px black;
+           filter: blur(0.8px); /* Teletext-ähnlicher Verschwommeneffekt */
+           text-align: center; /* Text zentrieren */
+       }
+
+
+       /* Stil für die Uhrzeit */
+       #time {
+           color: white;
+           font-weight: normal;
+           font-family: Arial, sans-serif; /* Arial Schriftart */
+           text-shadow: 3px 3px 5px black;
+           filter: blur(0.8px); /* Teletext-ähnlicher Verschwommeneffekt */
+           text-align: center; /* Text zentrieren */
+       }
+
+  }
